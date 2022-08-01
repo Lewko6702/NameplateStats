@@ -1,19 +1,18 @@
-﻿namespace NameplateStats
-{
-    using System.Diagnostics.CodeAnalysis;
-    using MelonLoader;
-    using UnhollowerRuntimeLib;
-    using VRC;
-    using System.Linq;
-    using UnityEngine;
+﻿using System.Diagnostics.CodeAnalysis;
+using MelonLoader;
+using UnhollowerRuntimeLib;
+using System.Linq;
+using UnityEngine;
 
+namespace NameplateStats
+{
     public class Prefs
     {
         [SuppressMessage("ReSharper", "AssignmentInConditionalExpression")]
         public static void OnStart()
         {
-            ClassInjector.RegisterTypeInIl2Cpp<NameplateStatsManager>();
-            ClassInjector.RegisterTypeInIl2Cpp<ObjectListener>();
+            ClassInjector.RHelperRegisterTypeInIl2Cpp<NameplateStatsManager>();
+            ClassInjector.RHelperRegisterTypeInIl2Cpp<ObjectListener>();
             RegisterPreferences();
 
             _Enabled.OnValueChanged += (_, b1) => ToggleEnable(b1);
@@ -146,9 +145,9 @@
         }
         
         public static bool QMInfoShow => NameplateManager.prop_Boolean_0;
-        
-        public static bool IconsOnlyMode =>
-            NameplateManager.prop_NameplateMode_0 == NameplateManager.NameplateMode.Icons;
-        
+            
+      public static bool IconsOnlyMode =>
+            NameplateManager.prop_EnumNPublicSealedvaStIcHiMA5vUnique_0 == NameplateManager.EnumNPublicSealedvaStIcHiMA5vUnique.Icons;
+    
     }
 }

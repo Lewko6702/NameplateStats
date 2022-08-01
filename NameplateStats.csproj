@@ -28,58 +28,56 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-	
-    <Reference Include="0Harmony">
-      <HintPath>..\Libs\Core\0Harmony.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\Libs\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>D:\downloadsLewko\Quest-Tools\melonloader\melonloader\etc\managed\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="DataModel">
-      <HintPath>..\Libs\Managed\DataModel.dll</HintPath>
+      <HintPath>D:\downloadsLewko\Quest-Tools\melonloader\melonloader\etc\managed\DataModel.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Il2Cppmscorlib">
-      <HintPath>..\Libs\Managed\Il2Cppmscorlib.dll</HintPath>
+      <HintPath>D:\downloadsLewko\Quest-Tools\melonloader\melonloader\etc\managed\Il2Cppmscorlib.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="MelonLoader">
-      <HintPath>..\Libs\Core\MelonLoader.dll</HintPath>
+      <HintPath>D:\downloadsLewko\Quest-Tools\melonloader\melonloader\etc\MelonLoader.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnhollowerBaseLib">
-      <HintPath>..\Libs\Managed\UnhollowerBaseLib.dll</HintPath>
+      <HintPath>D:\downloadsLewko\Quest-Tools\melonloader\melonloader\etc\managed\UnhollowerBaseLib.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnhollowerRuntimeLib">
-      <HintPath>..\Libs\Managed\UnhollowerRuntimeLib.dll</HintPath>
+      <HintPath>D:\downloadsLewko\Quest-Tools\melonloader\melonloader\etc\managed\UnhollowerRuntimeLib.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>..\Libs\Managed\Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:\downloadsLewko\Quest-Tools\melonloader\melonloader\etc\managed\Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\Libs\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>D:\downloadsLewko\Quest-Tools\melonloader\melonloader\etc\managed\UnityEngine.CoreModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>..\Libs\Managed\UnityEngine.UI.dll</HintPath>
+      <HintPath>D:\downloadsLewko\Quest-Tools\melonloader\melonloader\etc\managed\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="VRC.UI.Core">
-      <HintPath>..\Libs\Managed\VRC.UI.Core.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\Quest-Tools\melonloader\melonloader\etc\managed\VRC.UI.Core.dll</HintPath>
     </Reference>
     <Reference Include="VRC.UI.Elements">
-      <HintPath>..\Libs\Managed\VRC.UI.Elements.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\Quest-Tools\melonloader\melonloader\etc\managed\VRC.UI.Elements.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.UI.Shared">
+      <HintPath>..\Quest-Tools\melonloader\melonloader\etc\managed\VRC.UI.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCCore-Editor">
+      <HintPath>..\Quest-Tools\melonloader\melonloader\etc\managed\VRCCore-Editor.dll</HintPath>
     </Reference>
     <Reference Include="VRCCore-Standalone">
-      <HintPath>..\Libs\Managed\VRCCore-Standalone.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\Quest-Tools\melonloader\melonloader\etc\managed\VRCCore-Standalone.dll</HintPath>
     </Reference>
   </ItemGroup>
   
