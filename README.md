@@ -11,7 +11,7 @@ A VRChat [MelonLoader](https://github.com/LavaGang/MelonLoader) which aims to ad
 * Ability to change the update timer for NameplateStats (50ms-30000ms)
 
 ## Compatability
-* Currently working on quest beta
+* Currently working on quest beta(maybe latest?)
 * This mod was made for Melonloader 0.4.1
 * Basic colour changing compatability with [BTKSANameplateFix](https://github.com/ddakebono/BTKSANameplateFix/)
 
